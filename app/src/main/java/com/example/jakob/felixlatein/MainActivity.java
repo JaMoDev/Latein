@@ -2,6 +2,7 @@ package com.example.jakob.felixlatein;
 
 import android.content.Intent;
 import android.provider.Settings;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -22,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        final AlertDialog.Builder adv1 = new AlertDialog.Builder(MainActivity.this);
+        adv1.setTitle("Nicht Verfügbar");
+        adv1.setMessage("Diese Lektion wird mit den nächsten Updates hinzugefügt");
+        adv1.setNegativeButton("OK", null);
+        AlertDialog alertDialog = adv1.create();
 
 
         lv1 = (ListView)findViewById(R.id.listview1);
@@ -42,7 +48,78 @@ public class MainActivity extends AppCompatActivity {
                 if (i==0) {
                     Intent myintent = new Intent(view.getContext(),lektion2.class);
                     startActivityForResult(myintent, 0);
+
                 }
+                if (i==40) {
+                    adv1.show();
+                }
+                if (i==41) {
+                    adv1.show();
+                }
+                if (i==42) {
+                    adv1.show();
+                }
+                if (i==43) {
+                    adv1.show();
+                }
+                if (i==44) {
+                    adv1.show();
+                }
+                if (i==45) {
+                    adv1.show();
+                }
+                if (i==46) {
+                    adv1.show();
+                }
+                if (i==47) {
+                    adv1.show();
+                }
+                if (i==48) {
+                    adv1.show();
+                }
+                if (i==49) {
+                    adv1.show();
+                }
+                if (i==50) {
+                    adv1.show();
+                }
+                if (i==51) {
+                    adv1.show();
+                }
+                if (i==52) {
+                    adv1.show();
+                }
+                if (i==53) {
+                    adv1.show();
+                }
+                if (i==54) {
+                    adv1.show();
+                }
+                if (i==55) {
+                    adv1.show();
+                }
+                if (i==56) {
+                    adv1.show();
+                }
+                if (i==57) {
+                    adv1.show();
+                }
+                if (i==58) {
+                    adv1.show();
+                }
+                if (i==59) {
+                    adv1.show();
+                }
+                if (i==60) {
+                    adv1.show();
+                }
+                if (i==61) {
+                    adv1.show();
+                }
+                if (i==62) {
+                    adv1.show();
+                }
+
 
             }
         });
