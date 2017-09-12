@@ -25,9 +25,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final AlertDialog.Builder adv1 = new AlertDialog.Builder(MainActivity.this);
         adv1.setTitle("Nicht Verfügbar");
-        adv1.setMessage("Diese Lektion wird mit den nächsten Updates hinzugefügt");
+        adv1.setMessage("Diese Lektion wird mit den kommenden Updates hinzugefügt.");
         adv1.setNegativeButton("OK", null);
         AlertDialog alertDialog = adv1.create();
+
+
 
 
         lv1 = (ListView)findViewById(R.id.listview1);
@@ -137,6 +139,21 @@ public class MainActivity extends AppCompatActivity {
             case R.id.close:
                 finish();
                 System.exit(0);
+
+            case R.id.impressum:
+                final AlertDialog.Builder adv2 = new AlertDialog.Builder(MainActivity.this);
+                adv2.setTitle("Impressum");
+                adv2.setMessage("Entwickler:" +
+                        "Jakob Röhl" +
+                        "Moritz Hödtke" +
+                        "Kontakt:" +
+                        "JaMoeDev@gmail.com" +
+                        "" +
+                        "Falls es Probleme gibt oder etwas nicht funktioniert, informiert uns bitte über die oben genannte E-Mail darüber.");
+                adv2.setNegativeButton("Schliessen", null);
+                AlertDialog alertDialog1 = adv2.create();
+                adv2.show();
+
 
 
         }
