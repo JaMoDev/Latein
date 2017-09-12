@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Felix Latein Übersetzungen</string>
+    <string name="title_activity_lektion1">Lektion 1</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_lektion2">lektion2</string>
+</resources>

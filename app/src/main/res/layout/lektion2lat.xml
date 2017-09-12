@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="25dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Treffpunkt Forum" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Claudia filia est, Marcus filius est.
+Iulia amica est, Spurius amicus est.
+Claudia et Iulia amicae sunt.
+Marcus et Spurius amici sunt.
+Hic forum est.
+Ibi templum est. Porta patet.
+Hic statuae et monumenta sunt.
+Ibi basilicae et tabernae sunt. Portae iam patent.
+Iulia iam adest. Quid Iulia videt? Claudia et
+Marcus properant.
+Claudia et Marcus gaudent et salutant: „Salve!“
+Et Iulia gaudet; nam amici adsunt.
+Iulia salutat: „Salvete!“
+Sed Spurius non adest.
+Iulia cessat et interrogat: „Ubi est Spurius? Cur
+Spurius non adest?“" />
+</LinearLayout>

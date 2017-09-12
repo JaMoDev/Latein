@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:textSize="25dp"
+        android:id="@+id/texttitel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Treffpunkt Forum" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="490dp"
+        android:paddingLeft="10dp"
+        android:text="Claudia ist die Tochter, Marcus ist der Sohn.
+Julia ist eine Freundin, Spurius ist ein Freund.
+Claudia und Julia sind Freundinnen.
+Marcus und Spurius sind Freunde.
+
+Hier ist das Forum.
+Dort ist ein Tempel. Das Tor steht offen.
+Hier sind Statuen und Denkmäler.
+Dort sind Markthallen und Läden. Die Tore stehen bereits offen.
+
+Julia ist schon da. Was sieht Julia? Claudia und
+Marcus beeilen sich.
+Claudia und Marcus freuen sich und grüßen: „Guten Tag!“
+Auch Julia freut sich; die Freunde sind nämlich da.
+Julia grüßt: „Seid gegrüßt!“
+Aber Spurius ist nicht da.
+Julia zögert und fragt: „Wo ist Spurius? Warum
+ist Spurius nicht da?“ " />
+
+</LinearLayout>
