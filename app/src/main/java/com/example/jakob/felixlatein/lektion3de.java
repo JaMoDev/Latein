@@ -8,15 +8,17 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by Jakob on 11.09.2017.
+ * Created by Jakob on 13.09.2017.
  */
 
-public class lektion1lat extends Fragment{
-    private static final String TAG = "lektion1lat";
+public class lektion3de extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.lektion2lat, container, false);
+        View view = inflater.inflate(R.layout.lektion3de, container, false);
+
+
+
         return view;
     }
 }

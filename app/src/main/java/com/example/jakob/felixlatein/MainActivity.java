@@ -60,6 +60,16 @@ public class MainActivity extends AppCompatActivity {
                     startActivityForResult(myintent, 0);
 
                 }
+                if (i==1) {
+                    Intent myintent = new Intent(view.getContext(),lektion3.class);
+                    startActivityForResult(myintent, 1);
+
+                }
+                if (i==2) {
+                    Intent myintent = new Intent(view.getContext(),lektion4.class);
+                    startActivityForResult(myintent, 2);
+
+                }
                 if (i==40) {
                     adv1.show();
                 }

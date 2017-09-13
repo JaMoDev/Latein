@@ -4,4 +4,21 @@
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_lektion2">lektion2</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="lektion3string">
+        Ibi curia est. Portae patent.
+        Nunc Manlius senator et Cassius senator iam adsunt.
+        Senatores non intrant, sed paulum exspectant.
+        Prope etiam basilicae sunt.
+        Hic Alfius mercator sedet et tacet. Alfius nondum laborat.
+        Ubi est populus? Iam diu mercatores exspectant.
+        Tandem populus accedit. Statim mercatores clamant et laborant.
+        Etiam amici et amicae accedunt. Alfius mercator salutat:
+        „Salve, Claudia! Salve, Iulia! Salvete, amici!“
+        Tum interrogat: „Quis vos mittit?“
+        Amici et amicae: „Nemo. Forum Romanum nobis placet.“
+        Prope etiam aurifex stat et exspectat. Tandem domini et dominae
+        accedunt. Nunc aurifex gaudet et ridet.</string>
+    <string name="title_activity_lektion4">lektion4</string>
+
 </resources>

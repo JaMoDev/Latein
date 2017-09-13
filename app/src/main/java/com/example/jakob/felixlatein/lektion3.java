@@ -1,6 +1,5 @@
 package com.example.jakob.felixlatein;
 
-import android.graphics.Paint;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
@@ -22,21 +21,19 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class lektion2 extends AppCompatActivity {
+public class lektion3 extends AppCompatActivity {
+
     private ViewPager viewPager;
     private Toolbar toolbar;
-    private SectionsPageAdapter SectionsPageAdapter;
-
-
+    private SectionsPageAdapter SectionsPageAdapter3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lektion2);
-
+        setContentView(R.layout.activity_lektion3);
 
         toolbar = (Toolbar)findViewById(R.id.toolbar);
-        toolbar.setTitle("Lektion 2");
+        toolbar.setTitle("Lektion 3");
         setSupportActionBar(toolbar);
 
         if(getSupportActionBar()!=null){
@@ -49,16 +46,15 @@ public class lektion2 extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-
-        SectionsPageAdapter = new SectionsPageAdapter(getSupportFragmentManager());
+        SectionsPageAdapter3 = new SectionsPageAdapter(getSupportFragmentManager());
 
     }
     @RequiresApi(api = Build.VERSION_CODES.M)
     private void setupViewPager(final ViewPager viewPager) {
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new lektion2de(), "Deutsch");
-        adapter.addFragment(new lektion2lat(), "Latein");
-        adapter.addFragment(new lektion2voc(), "Vokabeln");
+        adapter.addFragment(new lektion3de(), "Deutsch");
+        adapter.addFragment(new lektion3lat(), "Latein");
+        adapter.addFragment(new lektion3voc(), "Vokabeln");
         viewPager.setAdapter(adapter);
     }
     @Override
@@ -68,5 +64,5 @@ public class lektion2 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-}
 
+}

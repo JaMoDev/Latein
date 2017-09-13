@@ -8,17 +8,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by Jakob on 11.09.2017.
+ * Created by Jakob on 13.09.2017.
  */
 
-public class lektion1voc extends Fragment{
-    private static final String TAG = "lektion1voc";
-
-
+public class lektion3voc extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.lektion2voc, container, false);
+        View view = inflater.inflate(R.layout.lektion3voc, container, false);
+
+
         return view;
     }
 }

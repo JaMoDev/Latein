@@ -21,7 +21,7 @@ public class lektion2voc extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.lektion1voc, container, false);
+        View view = inflater.inflate(R.layout.lektion2voc, container, false);
 
 
         return view;
