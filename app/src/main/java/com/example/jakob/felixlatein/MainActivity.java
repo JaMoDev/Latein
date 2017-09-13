@@ -1,6 +1,9 @@
 package com.example.jakob.felixlatein;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.provider.Settings;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +15,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private ListView lv1;
@@ -23,11 +27,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
         final AlertDialog.Builder adv1 = new AlertDialog.Builder(MainActivity.this);
         adv1.setTitle("Nicht Verfügbar");
         adv1.setMessage("Diese Lektion wird mit den kommenden Updates hinzugefügt.");
         adv1.setNegativeButton("OK", null);
         AlertDialog alertDialog = adv1.create();
+
 
 
 
@@ -143,22 +151,27 @@ public class MainActivity extends AppCompatActivity {
             case R.id.impressum:
                 final AlertDialog.Builder adv2 = new AlertDialog.Builder(MainActivity.this);
                 adv2.setTitle("Impressum");
-                adv2.setMessage("Entwickler:" +
-                        "Jakob Röhl" +
-                        "Moritz Hödtke" +
-                        "Kontakt:" +
-                        "JaMoeDev@gmail.com" +
-                        "" +
-                        "Falls es Probleme gibt oder etwas nicht funktioniert, informiert uns bitte über die oben genannte E-Mail darüber.");
+                adv2.setMessage("Entwickler:                                             Jakob Röhl, Moritz Hödtke                                            Kontakt: jamoedev@gmail.com");
                 adv2.setNegativeButton("Schliessen", null);
                 AlertDialog alertDialog1 = adv2.create();
                 adv2.show();
 
 
 
+
         }
         return super.onOptionsItemSelected(item);
     }
+    //public boolean isConnected (Context context)
+
+        //ConnectivityManager cm = (ConnectivityManager) //context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        //NetworkInfo netinfo = cm.getActiveNetworkInfo();
+
+
+
+
+
+
 }
 
 
