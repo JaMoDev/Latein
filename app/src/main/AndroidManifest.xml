@@ -20,10 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".lektion1"
-            android:label="@string/title_activity_lektion1"
-            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".Lektion2.lektion2"
             android:label="@string/title_activity_lektion2"
@@ -47,6 +44,150 @@
         <activity
             android:name=".Lektion7.lektion7"
             android:label="@string/title_activity_lektion7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion8.lektion8"
+            android:label="@string/title_activity_lektion8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion9.lektion9"
+            android:label="@string/title_activity_lektion9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion10.lektion10"
+            android:label="@string/title_activity_lektion10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion11.lektion11"
+            android:label="@string/title_activity_lektion11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion12.lektion12"
+            android:label="@string/title_activity_lektion12"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion13.lektion13"
+            android:label="@string/title_activity_lektion13"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion14.lektion14"
+            android:label="@string/title_activity_lektion14"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".lektion15"
+            android:label="@string/title_activity_lektion15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion16.lektion16"
+            android:label="@string/title_activity_lektion16"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion15.lektion15"
+            android:label="@string/title_activity_lektion15"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion17.lektion17"
+            android:label="@string/title_activity_lektion17"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion18.lektion18"
+            android:label="@string/title_activity_lektion18"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion19.lektion19"
+            android:label="@string/title_activity_lektion19"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion20.lektion20"
+            android:label="@string/title_activity_lektion20"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion21.lektion21"
+            android:label="@string/title_activity_lektion21"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion22.lektion22"
+            android:label="@string/title_activity_lektion22"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion23.lektion23"
+            android:label="@string/title_activity_lektion23"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion24.lektion24"
+            android:label="@string/title_activity_lektion24"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion25.lektion25"
+            android:label="@string/title_activity_lektion25"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion26.lektion26"
+            android:label="@string/title_activity_lektion26"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion27.lektion27"
+            android:label="@string/title_activity_lektion27"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion28.lektion28"
+            android:label="@string/title_activity_lektion28"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion29.lektion29"
+            android:label="@string/title_activity_lektion29"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion30.lektion30"
+            android:label="@string/title_activity_lektion30"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion31.lektion31"
+            android:label="@string/title_activity_lektion31"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion32.lektion32"
+            android:label="@string/title_activity_lektion32"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion33.lektion33"
+            android:label="@string/title_activity_lektion33"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion34.lektion34"
+            android:label="@string/title_activity_lektion34"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion35.lektion35"
+            android:label="@string/title_activity_lektion35"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion36.lektion36"
+            android:label="@string/title_activity_lektion36"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion37.lektion37"
+            android:label="@string/title_activity_lektion37"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion38.lektion38"
+            android:label="@string/title_activity_lektion38"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion39.lektion39"
+            android:label="@string/title_activity_lektion39"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion40.lektion40"
+            android:label="@string/title_activity_lektion40"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion41.lektion41"
+            android:label="@string/title_activity_lektion41"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lektion42.lektion42"
+            android:label="@string/title_activity_lektion42"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
