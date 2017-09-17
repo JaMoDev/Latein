@@ -1,37 +1,33 @@
-package com.example.jakob.felixlatein;
+package com.example.jakob.felixlatein.Lektion2;
 
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
 
-import android.widget.TextView;
+import com.example.jakob.felixlatein.R;
+import com.example.jakob.felixlatein.SectionsPageAdapter;
 
-public class lektion4 extends AppCompatActivity {
+public class lektion2 extends AppCompatActivity {
     private ViewPager viewPager;
     private Toolbar toolbar;
-    private SectionsPageAdapter SectionsPageAdapter4;
+    private com.example.jakob.felixlatein.SectionsPageAdapter SectionsPageAdapter;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lektion4);
+        setContentView(R.layout.activity_lektion2);
+
+
         toolbar = (Toolbar)findViewById(R.id.toolbar);
-        toolbar.setTitle("Lektion 4");
+        toolbar.setTitle("Lektion 2");
         setSupportActionBar(toolbar);
 
         if(getSupportActionBar()!=null){
@@ -44,15 +40,16 @@ public class lektion4 extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-        SectionsPageAdapter4 = new SectionsPageAdapter(getSupportFragmentManager());
+
+        SectionsPageAdapter = new SectionsPageAdapter(getSupportFragmentManager());
 
     }
     @RequiresApi(api = Build.VERSION_CODES.M)
     private void setupViewPager(final ViewPager viewPager) {
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new lektion4de(), "Deutsch");
-        adapter.addFragment(new lektion4lat(), "Latein");
-        adapter.addFragment(new lektion4voc(), "Vokabeln");
+        adapter.addFragment(new lektion2de(), "Deutsch");
+        adapter.addFragment(new lektion2lat(), "Latein");
+        adapter.addFragment(new lektion2voc(), "Vokabeln");
         viewPager.setAdapter(adapter);
     }
     @Override
@@ -62,6 +59,5 @@ public class lektion4 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
-
 }
+

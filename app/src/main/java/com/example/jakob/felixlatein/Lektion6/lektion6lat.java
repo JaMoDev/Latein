@@ -1,4 +1,4 @@
-package com.example.jakob.felixlatein;
+package com.example.jakob.felixlatein.Lektion6;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,16 +7,17 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.jakob.felixlatein.R;
+
 /**
- * Created by Jakob on 11.09.2017.
+ * Created by Jakob on 17.09.2017.
  */
 
-public class lektion2lat extends Fragment{
-    private static final String TAG = "lektion1lat";
+public class lektion6lat extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.lektion2lat, container, false);
+        View view = inflater.inflate(R.layout.lektion6lat, container, false);
         return view;
     }
 }

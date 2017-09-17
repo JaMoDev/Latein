@@ -1,4 +1,4 @@
-package com.example.jakob.felixlatein;
+package com.example.jakob.felixlatein.Lektion2;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,15 +7,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.jakob.felixlatein.R;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 /**
- * Created by Jakob on 13.09.2017.
+ * Created by Jakob on 11.09.2017.
  */
 
-public class lektion4voc extends Fragment {
+public class lektion2voc extends Fragment{
+    private static final String TAG = "lektion1voc";
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.lektion4voc, container, false);
+        View view = inflater.inflate(R.layout.lektion2voc, container, false);
+
+
         return view;
     }
 }

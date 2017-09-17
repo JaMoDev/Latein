@@ -1,6 +1,5 @@
-package com.example.jakob.felixlatein;
+package com.example.jakob.felixlatein.Lektion6;
 
-import android.graphics.Paint;
 import android.os.Build;
 import android.support.annotation.RequiresApi;
 import android.support.design.widget.TabLayout;
@@ -22,21 +21,27 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class lektion2 extends AppCompatActivity {
+import com.example.jakob.felixlatein.Lektion2.lektion2de;
+import com.example.jakob.felixlatein.Lektion2.lektion2lat;
+import com.example.jakob.felixlatein.Lektion2.lektion2voc;
+import com.example.jakob.felixlatein.Lektion6.lektion6de;
+import com.example.jakob.felixlatein.Lektion6.lektion6lat;
+import com.example.jakob.felixlatein.Lektion6.lektion6voc;
+import com.example.jakob.felixlatein.R;
+import com.example.jakob.felixlatein.SectionsPageAdapter;
+
+public class lektion6 extends AppCompatActivity {
     private ViewPager viewPager;
     private Toolbar toolbar;
-    private SectionsPageAdapter SectionsPageAdapter;
-
+    private com.example.jakob.felixlatein.SectionsPageAdapter SectionsPageAdapter;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lektion2);
-
-
+        setContentView(R.layout.activity_lektion6);
         toolbar = (Toolbar)findViewById(R.id.toolbar);
-        toolbar.setTitle("Lektion 2");
+        toolbar.setTitle("Lektion 6");
         setSupportActionBar(toolbar);
 
         if(getSupportActionBar()!=null){
@@ -56,9 +61,9 @@ public class lektion2 extends AppCompatActivity {
     @RequiresApi(api = Build.VERSION_CODES.M)
     private void setupViewPager(final ViewPager viewPager) {
         SectionsPageAdapter adapter = new SectionsPageAdapter(getSupportFragmentManager());
-        adapter.addFragment(new lektion2de(), "Deutsch");
-        adapter.addFragment(new lektion2lat(), "Latein");
-        adapter.addFragment(new lektion2voc(), "Vokabeln");
+        adapter.addFragment(new lektion6de(), "Deutsch");
+        adapter.addFragment(new lektion6lat(), "Latein");
+        adapter.addFragment(new lektion6voc(), "Vokabeln");
         viewPager.setAdapter(adapter);
     }
     @Override
@@ -67,6 +72,8 @@ public class lektion2 extends AppCompatActivity {
             finish();
         return super.onOptionsItemSelected(item);
     }
+
+
 
 }
 

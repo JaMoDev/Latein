@@ -1,21 +1,22 @@
 package com.example.jakob.felixlatein;
 
-import android.content.Context;
 import android.content.Intent;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.provider.Settings;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
+
+import com.example.jakob.felixlatein.Lektion2.lektion2;
+import com.example.jakob.felixlatein.Lektion3.lektion3;
+import com.example.jakob.felixlatein.Lektion4.lektion4;
+import com.example.jakob.felixlatein.Lektion5.lektion5;
+import com.example.jakob.felixlatein.Lektion6.lektion6;
+import com.example.jakob.felixlatein.Lektion7.lektion7;
 
 public class MainActivity extends AppCompatActivity {
     private ListView lv1;
@@ -68,7 +69,18 @@ public class MainActivity extends AppCompatActivity {
                 if (i==2) {
                     Intent myintent = new Intent(view.getContext(),lektion4.class);
                     startActivityForResult(myintent, 2);
-
+                }
+                if (i==3) {
+                    Intent myintent = new Intent(view.getContext(), lektion5.class);
+                    startActivityForResult(myintent, 3);
+                }
+                if (i==4) {
+                    Intent myintent = new Intent(view.getContext(), lektion6.class);
+                    startActivityForResult(myintent, 4);
+                }
+                if (i==5) {
+                    Intent myintent = new Intent(view.getContext(), lektion7.class);
+                    startActivityForResult(myintent, 5);
                 }
                 if (i==40) {
                     adv1.show();
@@ -172,15 +184,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-    //public boolean isConnected (Context context)
-
-        //ConnectivityManager cm = (ConnectivityManager) //context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        //NetworkInfo netinfo = cm.getActiveNetworkInfo();
-
-
-
-
-
 
 }
 
