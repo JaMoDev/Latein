@@ -1,8 +1,20 @@
 package com.example.jakob.felixlatein.Lektion9;
 
-/**
- * Created by Jakob on 17.09.2017.
- */
 
-public class lektion9voc {
+import android.app.Fragment;
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.example.jakob.felixlatein.R;
+
+public class lektion9voc extends Fragment {
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.lektion9voc, container, false);
+        return view;
+    }
 }

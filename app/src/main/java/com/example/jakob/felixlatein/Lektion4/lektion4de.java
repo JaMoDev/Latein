@@ -9,9 +9,6 @@ import android.view.ViewGroup;
 
 import com.example.jakob.felixlatein.R;
 
-/**
- * Created by Jakob on 13.09.2017.
- */
 
 public class lektion4de extends Fragment {
     @Nullable

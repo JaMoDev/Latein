@@ -34,10 +34,6 @@
             android:label="@string/title_activity_lektion4"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Lektion5.lektion5"
-            android:label="@string/title_activity_lektion5"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".Lektion6.lektion6"
             android:label="@string/title_activity_lektion6"
             android:theme="@style/AppTheme.NoActionBar" />

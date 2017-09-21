@@ -34,7 +34,7 @@ public class lektion7 extends AppCompatActivity {
 
     private ViewPager viewPager;
     private Toolbar toolbar;
-    private SectionsPageAdapter SectionsPageAdapter3;
+    private SectionsPageAdapter SectionsPageAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +54,7 @@ public class lektion7 extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-        SectionsPageAdapter3 = new SectionsPageAdapter(getSupportFragmentManager());
+        SectionsPageAdapter = new SectionsPageAdapter(getSupportFragmentManager());
 
     }
     @RequiresApi(api = Build.VERSION_CODES.M)

@@ -47,7 +47,6 @@ import com.example.jakob.felixlatein.Lektion4.lektion4;
 import com.example.jakob.felixlatein.Lektion40.lektion40;
 import com.example.jakob.felixlatein.Lektion41.lektion41;
 import com.example.jakob.felixlatein.Lektion42.lektion42;
-import com.example.jakob.felixlatein.Lektion5.lektion5;
 import com.example.jakob.felixlatein.Lektion6.lektion6;
 import com.example.jakob.felixlatein.Lektion7.lektion7;
 import com.example.jakob.felixlatein.Lektion8.lektion8;
