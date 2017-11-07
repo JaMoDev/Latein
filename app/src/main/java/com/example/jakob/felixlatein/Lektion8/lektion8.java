@@ -9,7 +9,6 @@ import android.support.v7.widget.Toolbar;
 import android.support.v4.view.ViewPager;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.support.v4.Fragment;
 
 import com.example.jakob.felixlatein.R;
 import com.example.jakob.felixlatein.SectionsPageAdapter;
